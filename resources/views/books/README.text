@@ -1,0 +1,30 @@
+# About Projects Explanation
+
+This is a simple Laravel project to manage Authors and their Books.Each author can have multiple books (one-to-many relationship).But the Author should have unique Email-id. In this the author name can be deleted and added accordingly. Like the same the books can also be added and deleted. In the author page can directly go the Books page to create the books and the books page can be go to the authors pages to view the authors.
+The project includes basic CRUD operations with simple Blade views.
+
+# Tech Stack
+* Laravel
+* MySQL
+* Blade Templates
+* Eloquent ORM
+
+# Features
+- Add, list and delete authors
+- Add, list and delete books
+- Author–Book relationship
+- Basic form validation
+- Simple UI using Blade
+
+# Setup Instructions
+1. Clone the repository
+2. Run `composer install`
+3. Configure database details in `.env`
+4. Run `php artisan migrate`
+5. Start the server using `php artisan serve`
+
+# Access URLs
+- Authors: `/authors`
+- Authors-Create: `/authors/create`
+- Books: `/books`
+- Books-Create: `/books/create`
